@@ -3,6 +3,7 @@
 注意：两结点之间的路径长度是以它们之间边的数目表示。
 """
 
+# Wrong
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
