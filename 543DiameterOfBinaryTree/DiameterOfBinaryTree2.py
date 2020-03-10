@@ -6,8 +6,8 @@
 # 用递归算法
 # 考虑节点而不是边
 # 两条简单的规则作为基础
-#   1. number_of_nodes(Node) = number_of_nodes(Node.left)+number_of_nodes(Node.right) + 1
-#
+#   1. diameter_of_tree(Node) = depth_of_nodes(Node.left)+depth_of_nodes(Node.right) + 1
+#   2. depth_of_nodes(root) = max(depth_of_nodes(root.left),depth_of_nodes(root.right)) + 1
 
 # Definition for a binary tree node.
 class TreeNode:
