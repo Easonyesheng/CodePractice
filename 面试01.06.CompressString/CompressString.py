@@ -26,7 +26,7 @@ class Solution:
         '''
         '''
         if not S: return ''
-        if len(S)==1: return S 
+        if len(S)<=2: return S 
         def get_top_part(S):
             '''get the top repeat part
 
@@ -60,5 +60,5 @@ class Solution:
 
 if __name__ == "__main__":
     s = Solution()
-    S = "abbccd"
+    S = "ab"
     print(s.compressString(S))
